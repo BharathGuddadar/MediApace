@@ -1,0 +1,113 @@
+/* Cart container */
+.cart {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  /* Cart heading */
+  .cart h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  .home h1{
+    color: #fff;
+  }
+  /* Cart items list */
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Individual cart item */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Item details */
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .item-quantity {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .item-price {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Item total */
+  .item-total {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Cart total section */
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Checkout button */
+  .checkout-button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Remove button */
+.remove-button {
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4d; /* Red color for emphasis */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
