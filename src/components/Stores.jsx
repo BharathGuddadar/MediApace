@@ -6,13 +6,13 @@ const Stores = () => {
   const stores = [
     {
       id: 1,
-      name: "MediStore 1",
+      name: "Medi Shop",
       location: "123 Main St, Bangalore",
       description: "Your trusted pharmacy for quality medicines and health products.",
     },
     {
       id: 2,
-      name: "MediStore 2",
+      name: "Medistore",
       location: "456 Elm St, Bangalore",
       description: "Offering a wide range of prescription and over-the-counter drugs.",
     },
